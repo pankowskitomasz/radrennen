@@ -1,12 +1,12 @@
 import {Container } from "react-bootstrap";
 
-function RegistrierenAnsicht(){
+function AccountProfileView(){
     return(
         <Container>
-            <h1>Registrieren Ansicht</h1>
+            <h1>Account Profile View</h1>
 
         </Container>
     );
 }
 
-export default RegistrierenAnsicht;
+export default AccountProfileView;

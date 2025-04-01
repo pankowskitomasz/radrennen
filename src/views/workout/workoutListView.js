@@ -1,12 +1,12 @@
 import {Container } from "react-bootstrap";
 
-function DatenschutzAnsicht(){
+function WorkoutListView(){
     return(
         <Container>
-            <h1>Datenschutz Ansicht</h1>
+            <h1>Workout List View</h1>
 
         </Container>
     );
 }
 
-export default DatenschutzAnsicht;
+export default WorkoutListView;

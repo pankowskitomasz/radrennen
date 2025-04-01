@@ -1,12 +1,12 @@
 import {Container } from "react-bootstrap";
 
-function HomeAnsicht(){
+function WorkoutView(){
     return(
         <Container>
-            <h1>Home Ansicht</h1>
+            <h1>Workout View</h1>
 
         </Container>
     );
 }
 
-export default HomeAnsicht;
+export default WorkoutView;

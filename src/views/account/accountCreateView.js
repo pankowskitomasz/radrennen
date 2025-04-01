@@ -1,12 +1,12 @@
 import {Container } from "react-bootstrap";
 
-function KundeProfilAnsicht(){
+function AccountCreateView(){
     return(
         <Container>
-            <h1>Kunde Profil Ansicht</h1>
+            <h1>Account Create View</h1>
 
         </Container>
     );
 }
 
-export default KundeProfilAnsicht;
+export default AccountCreateView;
