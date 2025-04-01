@@ -1,6 +1,6 @@
 import {Container,Row } from "react-bootstrap";
 
-function AnwendungFooter(){
+function AppFooter(){
     return(
         <footer>
             <Container fluid>
@@ -13,4 +13,4 @@ function AnwendungFooter(){
     );
 }
 
-export default AnwendungFooter;
+export default AppFooter;

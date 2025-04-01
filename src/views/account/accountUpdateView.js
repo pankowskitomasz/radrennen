@@ -1,12 +1,12 @@
 import {Container } from "react-bootstrap";
 
-function KontaktAnsicht(){
+function AccountUpdateView(){
     return(
         <Container>
-            <h1>Kontakt Ansicht</h1>
+            <h1>Account Update View</h1>
 
         </Container>
     );
 }
 
-export default KontaktAnsicht;
+export default AccountUpdateView;

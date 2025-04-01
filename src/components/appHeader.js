@@ -1,12 +1,12 @@
 import {Container,Row } from "react-bootstrap";
 import Navigation from "./navigation";
 
-function AnwendungHeader(){
+function AppHeader(){
     return(
         <header>
             <Container fluid>
                 <Row>
-                    <Navigation menuItems={[{navItem:true, exact:true, path:"/",name:"Home",view:<homeAnsicht/>}]}/>
+                    <Navigation menuItems={[{navItem:true, exact:true, path:"/",name:"Home",view:<homeView/>}]}/>
                 </Row>
             </Container>
         </header>
@@ -14,4 +14,4 @@ function AnwendungHeader(){
     );
 }
 
-export default AnwendungHeader;
+export default AppHeader;
